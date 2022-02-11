@@ -97,7 +97,7 @@ class MealDetailScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(
           isFavorite(meal) ? Icons.star : Icons.star_border,
-          color: Colors.black12,
+          color: Colors.black,
         ),
         onPressed: () {
           onToggleFavorite(meal);
